@@ -32,8 +32,8 @@ public class ExceptionExample {
 			System.out.println("Null 참조 에러 발생");
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("인덱스 에러");
-		} catch (Exception e) {
-			e.printStackTrace();  //오류 경로 찾는 역할
+////		} catch (UpAndDownWithException e) {
+////			e.printStackTrace();  //오류 경로 찾는 역할
 //			System.out.println("알 수 없는 예외가 발생했습니다.");
 		} finally {          //트라이캐치문이 실행될때 반드시 호출되는 곳
 			System.out.println("반드시 출력해야 할 문장");
